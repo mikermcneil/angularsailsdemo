@@ -19,6 +19,7 @@ angular.module('application', ['application.filters', 'application.services', 'a
       when('/', {templateUrl: 'home.html'}).
       when('/view1', {templateUrl: 'partial1.html'}).
       when('/view2', {templateUrl: 'partial2.html'}).
+      when('/remotepartial', {templateUrl: '/template/find/test.html'}).
       otherwise({templateUrl: 'error404.html'});
   }]);
 
